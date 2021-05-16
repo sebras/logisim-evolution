@@ -36,7 +36,7 @@ public class ProjectEvent {
   public static final int ACTION_SET_FILE = 0; // change file
   public static final int ACTION_SET_CURRENT = 1; // change current
   public static final int ACTION_SET_TOOL = 2; // change tool
-  public static final int ACTION_SELECTION = 3; // selection alterd
+  public static final int ACTION_SELECTION = 3; // selection altered
   public static final int ACTION_SET_STATE = 4; // circuit state changed
   public static final int ACTION_START = 5; // action about to start
   public static final int ACTION_COMPLETE = 6; // action has completed

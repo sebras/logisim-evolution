@@ -797,9 +797,9 @@ class TableTab extends AnalyzerTab implements Entry.EntryChangedListener {
       if (pageNum >= numPages)
         return Printable.NO_SUCH_PAGE;
 
-      // g.drawRect(0, 0, (int)w-1, (int)h-1); // bage border
+      // g.drawRect(0, 0, (int)w-1, (int)h-1); // page border
       GraphicsUtil.drawText(g,
-          String.format("Combinational Analysis (page %d of %d)", pageNum+1, numPages),
+          String.format("Combinatorial Analysis (page %d of %d)", pageNum+1, numPages),
           (int)(w/2), 0, GraphicsUtil.H_CENTER, GraphicsUtil.V_TOP);
 
       g.translate(0, fm.getHeight() * 1.5);

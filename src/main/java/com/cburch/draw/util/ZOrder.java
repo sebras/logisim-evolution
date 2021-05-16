@@ -82,13 +82,13 @@ public class ZOrder {
   }
 
   public static int getZIndex(CanvasObject query, CanvasModel model) {
-    // returns 0 for bottommost element, large number for topmost
+    // returns 0 for bottom most element, large number for topmost
     return getIndex(query, model.getObjectsFromBottom());
   }
 
   public static Map<CanvasObject, Integer> getZIndex(
       Collection<? extends CanvasObject> query, CanvasModel model) {
-    // returns 0 for bottommost element, large number for topmost, ordered
+    // returns 0 for bottom most element, large number for topmost, ordered
     // from the bottom up.
     if (query == null) return Collections.emptyMap();
 

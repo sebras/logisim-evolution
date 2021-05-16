@@ -7,13 +7,13 @@ Logisim is an educational tool for designing and simulating digital logic circui
 It has been originally created by [Dr. Carl Burch](http://www.cburch.com/logisim/) and actively developed until 2011.
 After this date the author focused on other projects, and recently the development has been officially stopped  [(see his message here)](http://www.cburch.com/logisim/retire-note.html).
 
-In the meantime, people from a group of swiss institutes ([Haute École Spécialisée Bernoise](http://www.bfh.ch), [Haute École du paysage, d'ingénierie et d'architecture de Genève](http://hepia.hesge.ch), and [Haute École d'Ingénierie et de Gestion du Canton de Vaud](http://www.heig-vd.ch)) started developing a version of Logisim that fitted their courses, integrating several tools -- for instance a chronogram, the possibility to test the schematics directly on an electronic board, TCL/TK consoles, ...
+In the meantime, people from a group of Swiss institutes ([Haute École Spécialisée Bernoise](http://www.bfh.ch), [Haute École du paysage, d'ingénierie et d'architecture de Genève](http://hepia.hesge.ch), and [Haute École d'Ingénierie et de Gestion du Canton de Vaud](http://www.heig-vd.ch)) started developing a version of Logisim that fitted their courses, integrating several tools -- for instance a chronogram, the possibility to test the schematics directly on an electronic board, TCL/TK consoles, ...
 
 We have decided to release this new Logisim version under the name logisim-evolution, to highlight the large number of changes that occurred in these years, and **we actively seek the contribution of the community**.
 
 ## Languages
 
-Logisim supports many languages. Many of them are automatically translated by deepl. If you detect bizar translations please do not hesitate to correct them in the corresponding property files and ask for a pull-request.
+Logisim supports many languages. Many of them are automatically translated by deepl. If you detect bizarre translations please do not hesitate to correct them in the corresponding property files and ask for a pull-request.
 
 ## What's new in logisim-evolution
 
@@ -34,9 +34,9 @@ Logisim supports many languages. Many of them are automatically translated by de
 
 You can find an already compiled versions of the code [here](https://github.com/reds-heig/logisim-evolution/releases).
 Starting from V3.4.1 following compiled versions are available:
-* logisim-evolution_`<version>`-1_amd64.deb  : Self contained debian installer (also ubuntu).
-* logisim-evolution_`<version>`-1.x86_64.rpm : Self contained Redhat installer.
-* logisim-evolution_`<version>`.dmg          : Self contained Mac OsX installer.
+* logisim-evolution_`<version>`-1_amd64.deb  : Self contained Debian installer (also Ubuntu).
+* logisim-evolution_`<version>`-1.x86_64.rpm : Self contained Red Hat installer.
+* logisim-evolution_`<version>`.dmg          : Self contained Mac OS X installer.
 * logisim-evolution_`<version>`.msi          : Self contained Windows installer.
 
 If you want to have the latest development version you can build/run it by cloning the repository on your local machine and making sure that at least [OpenJDK](https://adoptopenjdk.net/) 9 is installed.
@@ -63,7 +63,7 @@ On macOS, you can build a native app bundle `Logisim-evolution.app` using:
 ```bash
 ./gradlew createApp
 ```
-which you will afterwards find in the folder `build/macApp/`. This has the advantage that `.circ` files get automatically associated to the `Logisim-evolution.app` so that you can open them directly in the Finder. *Note:* Curently, the app needs a separately installed compatible JDK/JRE to execute. You may also build a DMG image `logisim-evolution-<version>.dmg` containing `Logisim-evolution.app` for distribution:
+which you will afterwards find in the folder `build/macApp/`. This has the advantage that `.circ` files get automatically associated to the `Logisim-evolution.app` so that you can open them directly in the Finder. *Note:* Currently, the app needs a separately installed compatible JDK/JRE to execute. You may also build a DMG image `logisim-evolution-<version>.dmg` containing `Logisim-evolution.app` for distribution:
 ```
 ./gradlew createDmg
 ```
@@ -97,7 +97,7 @@ Once it is running without bugs on your local fork request a *Pull request* by:
 * Go to the *Pull request*-tab and push the button *New pull request*
 * Click on *compare across forks*
 * On the right hand side select your fork, for example: *head repository: BFH-ktt1/logisim-evolution*
-* On the right hand side select your branch, for example: *base: bugfixes*
+* On the right hand side select your branch, for example: *base: bug fixes*
 * On the left hand side select the development branch *base : develop* (important: all push request must be on the develop-branch as the master branch only holds the code of the latest release).
 * Make sure that there are no conflicts reported.
 
@@ -163,7 +163,7 @@ The following institutions/people actively contributed to logisim-evolution:
 * [Haute École Spécialisée Bernoise](http://www.bfh.ch) - Switzerland
 * [Haute École du paysage, d'ingénierie et d'architecture de Genève](http://hepia.hesge.ch) - Switzerland
 * [Haute École d'Ingénierie et de Gestion du Canton de Vaud](http://www.heig-vd.ch) - Switzerland
-* Theldo Cruz Franqueira - Pontifícia Universidade Católica de Minas Gerais - Brasil
+* Theldo Cruz Franqueira - Pontifícia Universidade Católica de Minas Gerais - Brazil
 * Moshe Berman - Brooklyn College
 
 If you feel that your name should be in this list, please feel free to send us a [mail](mailto:ktt1@bfh.ch)!

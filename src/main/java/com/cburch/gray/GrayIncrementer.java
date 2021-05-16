@@ -39,7 +39,7 @@ import com.cburch.logisim.instance.Port;
 import com.cburch.logisim.instance.StdAttr;
 
 /**
- * This component takes a multibit input and outputs the value that follows it in Gray Code. For
+ * This component takes a multi-bit input and outputs the value that follows it in Gray Code. For
  * instance, given input 0100 the output is 1100.
  */
 class GrayIncrementer extends InstanceFactory {
