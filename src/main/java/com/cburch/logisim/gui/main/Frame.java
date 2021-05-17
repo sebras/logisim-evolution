@@ -343,9 +343,9 @@ public class Frame extends LFrame implements LocaleListener {
     toolbox = new Toolbox(proj, this , menuListener);
     simExplorer = new SimulationExplorer(proj, menuListener);
     bottomTab = new JTabbedPane();
-    bottomTab.setFont(AppPreferences.getScaledFont(new Font("Dialog", Font.BOLD, 9)));
-    bottomTab.addTab("Properties", attrTable = new AttrTable(this));
-    bottomTab.addTab("State", new RegTabContent(this));
+    bottomTab.setFont(AppPreferences.getScaledFont(new Font(S.get("dialog"), Font.BOLD, 9)));
+    bottomTab.addTab(S.get("properties"), attrTable = new AttrTable(this));
+    bottomTab.addTab(S.get("state"), new RegTabContent(this));
 
     zoom = new ZoomControl(layoutZoomModel, layoutCanvas);
 
