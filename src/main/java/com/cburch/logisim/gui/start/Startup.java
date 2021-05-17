@@ -577,7 +577,8 @@ public class Startup implements AWTEventListener {
   public boolean autoUpdate() {
     if (!AppPreferences.AutomaticUpdateCheck.getBoolean()) return false;
     ProgressMonitor Monitor =
-        new ProgressMonitor(null, "Checking for new logisim version", "Autoupdate", 0, 4);
+        new ProgressMonitor(null, S.get("checkForUpdate"), S.get("autoUpdate"), 0, 4);
+
     Monitor.setProgress(0);
     Monitor.setMillisToPopup(0);
     Monitor.setMillisToDecideToPopup(0);
